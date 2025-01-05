@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 7860
 
 # Command to run the Gradio app
-CMD ["python", "app.py"]
+CMD ["python", "arima_forecast_app.py"]
